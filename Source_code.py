@@ -72,7 +72,7 @@ bullet_state="ready"
 
 background=pygame.image.load("Bg.jpg")
 
-mixer.music.load("Corona-320bit.mp3")
+mixer.music.load("Backmusic.mp3")
 
 mixer.music.play(-1)
 
@@ -226,7 +226,7 @@ while run:
 
 				e_y[i]=random.randint(0,900)
 
-				s1=mixer.Sound("M2.wav")
+				s1=mixer.Sound("Collide.wav")
 
 				s1.play()
 
@@ -250,7 +250,7 @@ while run:
 
 	rocket(x,y)
 
-	s=mixer.Sound("M1.wav")
+	s=mixer.Sound("Bulletgo.wav")
 
 	s.play()
 
