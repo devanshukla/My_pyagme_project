@@ -44,7 +44,7 @@ n_enemies=6
 
 for i in range (n_enemies):
 
-	e_image.append(pygame.image.load("a.png"))
+	e_image.append(pygame.image.load("Enemy.png"))
 
 	e_x.append(random.randint(0,900))
 
